@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SquareEyes offers high quality streaming of your favorite films.">
-  <title>SquareEyes | Connecting film-lovers</title>
-  <link rel="stylesheet" href="src/css/styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
-  <!--remember to add a meta description-->
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SquareEyes offers high quality streaming of your favorite films.">
+    <title>SquareEyes | Connecting film-lovers</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--remember to add a meta description-->
+  </head>
+<body>
+  <header>
+    <a href="../index.html"><img src="../assets/images/squareeyes-logo.png" alt="SquareEyes logo" width="150"></a>
+    <nav class="headerNav">
+      <ul class="headerList">
+        <li class="headerListItem"><a href="../index.html" class="headerListLink">Home</a></li class="headerListItem">
+        <li class="headerListItem"><a href="../html/browse.html" class="headerListLink">Browse</a></li class="headerListItem">
+        <li class="headerListItem"><a href="" class="headerListLink">News</a></li class="headerListItem">
+        <li class="headerListItem"><a href="" class="headerListLink">Articles</a></li class="headerListItem">
+      </ul class="headerList">
+    </nav class="headerNav">
+    <input type="text" placeholder="Search..." class="navSearchbar">
+    <a href="../html/checkout.html"><img src="../assets/images/shopping-cart.png"></a>
+    <a><img src="../assets/images/user-icon.png"></a>
+  </header>
+  <div class="mobileHeader">
+    <div class="mobileHeaderTop">
+      <a href="../index.html"><img src="../assets/images/squareeyes-logo.png" alt="SquareEyes logo" width="150"></a>  
+      <a href="../html/checkout.html"><img src="../assets/images/shopping-cart.png"></a>
+      <img src="../assets/images/hamburger-menu.png" class="hamburgerMenu">
+    </div>
+    <div class="mobileHeaderDropDown">
+      <hr>
+      <nav>
+        <ul>
+          <li class="headerListItem"><a href="" class="headerListLink">Home</a></li>
+          <li class="headerListItem"><a href="" class="headerListLink">Browse</a></li>
+          <li class="headerListItem"><a href="" class="headerListLink">News</a></li>
+          <li class="headerListItem"><a href="" class="headerListLink">Article</a></li>
+          <li class="headerListItem"><a href="" class="headerListLink">Profile</a></li>
+          <li class="headerListItem"><a href="" class="headerListLink">Settings</a></li>
+        </ul>
+      </nav>
+      <input type="text" placeholder="Search..." class="navSearchbar">
+    </div>
+  </div>
+
+  <main>
+    <div class="browseLayout">
+      <h2 class="filtersHeading">filters</h2>
+      <div class="filters">
+        <input type="text" placeholder="Year...">
+        <select>
+          <option>Genre</option>
+          <option>Action</option>
+          <option>Adventure</option>
+          <option>Comedy</option>
+          <option>Documentary</option>
+          <option>Drama</option>
+          <option>Horror</option>
+          <option>Mystery</option>
+          <option>Romance</option>
+          <option>Thriller</option>
+        </select>
+        <select>
+          <option>Language</option>
+          <option>Chinese</option>
+          <option>English</option>
+          <option>Italian</option>
+          <option>Portugese</option>
+          <option>Russian</option>
+          <option>Spanish</option>
+        </select>
+        <select>
+          <option>Sort by</option>
+          <option>Release Date</option>
+          <option>Popularity</option>
+          <option>Rating</option>
+        </select>
+      </div>
+      <div class="categories">
+        <div class="browseStar1"></div>
+        <div class="browseStar2"></div>
+        <h2>recent additions</h2>
+        <div class="filmPosters">
+          <div class="poster">
+            <a href="../html/product_page.html" class="filmTitle">Godzilla: King of the Monsters</a>
+            <img src="../assets/images/godzilla.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">The Addams Family</a>
+            <img src="../assets/images/addams.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Once Upon a Time in Hollywood</a>
+            <img src="../assets/images/hollywood.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">The Batman</a>
+            <img src="../assets/images/batman.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Sweetheart</a>
+            <img src="../assets/images/Sweetheart.jpeg" class="posterImage">
+          </div>
+        </div>
+        <h2>popular this week</h2>
+        <div class="filmPosters">
+          <div class="poster">
+            <a href="../html/product_page.html" class="filmTitle">Once Upon a Time in Hollywood</a>
+            <img src="../assets/images/hollywood.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Godzilla: King of the monsters</a>
+            <img src="../assets/images/godzilla.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Scream</a>
+            <img src="../assets/images/scream.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Sweetheart</a>
+            <img src="../assets/images/Sweetheart.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Hobbs & Shaw</a>
+            <img src="../assets/images/hobbs.jpeg" class="posterImage">
+          </div>
+        </div>
+        <h2>popular all time</h2>
+        <div class="filmPosters">
+          <div class="poster">
+            <a href="" class="filmTitle">Once upon a time in hollywood</a>
+            <img src="../assets/images/hollywood.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Scream</a>
+            <img src="../assets/images/scream.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Toy Story 4</a>
+            <img src="../assets/images/toystory.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Sweetheart</a>
+            <img src="../assets/images/Sweetheart.jpeg" class="posterImage">
+          </div>
+          <div class="poster">
+            <a href="" class="filmTitle">Hobbs & Shaw</a>
+            <img src="../assets/images/hobbs.jpeg" class="posterImage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <nav class="footerNav">  
+      <ul class="footerList">
+        <li class="footerListItem"><a href="../html/about.html" class="footerLink">About</a></li class="footerListItem">
+        <li class="footerListItem"><a href="../html/contact.html" class="footerLink">Contact</a></li class="footerListItem">
+        <li class="footerListItem"><a href="" class="footerLink">FAQ</a></li class="footerListItem">
+        <li class="footerListItem"><a href="" class="footerLink">Terms and Privacy</a></li class="footerListItem">
+      </ul class="footerList">
+    </nav class="footerNav">
+  </footer>
+</body>
