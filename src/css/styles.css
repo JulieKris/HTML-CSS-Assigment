@@ -106,7 +106,7 @@ table {
 
 /* header and footer*/
 header {
-  position: fixed;
+  position: static;
   display: grid;
   grid-template-columns: auto 2fr 1fr auto auto;
   background-color: #191919;
