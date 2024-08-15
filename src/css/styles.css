@@ -219,7 +219,7 @@ footer {
 
 .intro {
   position: relative;
-  background-image: url(../assets/images/connecting-film-lovers.png);
+  background-image: url("../assets/images/connecting-film-lovers.png");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
