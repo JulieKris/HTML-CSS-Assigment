@@ -8,8 +8,8 @@
 
 /*affects all pages*/
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: #F1F0E1;
+  background-image: linear-gradient(#2F2F2F, #415083 77%, #415083);
   grid-template-rows: auto 1fr;
   font-family: "Hind", sans-serif;
   font-weight: 100;
@@ -31,8 +31,6 @@ header {
 }
 
 main {
-  background-image: linear-gradient(#2F2F2F, #415083 77%, #415083);
-  background-attachment: fixed;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 200px;
@@ -153,6 +151,7 @@ footer {
   background-color: #415083;
   padding-top: 50px;
   padding-bottom:50px;
+  bottom: 0;
 }
 
 .footerList {
@@ -725,14 +724,11 @@ footer {
   }
 
   .intro p {
-    margin-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
   }
-  .intro button {
-    position: absolute;
-    margin-left: 60%;
-    margin-top: -150px;
-  }
-
+  
   .top {
     padding-bottom: 50px;
   }
