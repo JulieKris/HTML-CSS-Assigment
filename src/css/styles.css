@@ -111,7 +111,8 @@ header {
   grid-template-columns: auto 2fr 1fr auto auto;
   background-color: #191919;
   align-items: center;
-  margin: 0px;
+  top: 0;
+  left: 0;
   padding-top: 15px;
   padding-left: 15%;
   padding-right: 15%;
@@ -143,7 +144,7 @@ header {
 }
 
 .navSearchbar {
-  background-image: url(../assets/images/search-icon.png);
+  background-image: url(/assets/images/search-icon.png);
   background-repeat: no-repeat;
   padding-left: 45px;
 }
@@ -216,7 +217,7 @@ footer {
 
 .intro {
   position: relative;
-  background-image: url("assets/images/connecting-film-lovers.png");
+  background-image: url(/assets/images/connecting-film-lovers.png);
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -298,7 +299,7 @@ footer {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
-  background-image: url(../assets/images/arrow-right.png);
+  background-image: url(/assets/images/arrow-right.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-x: 97%;
@@ -317,7 +318,7 @@ footer {
   top: -30px;
   left: 87%;
   position: absolute;
-  background-image: url(../assets/images/browse-star1.png);
+  background-image: url(/assets/images/browse-star1.png);
   background-repeat: no-repeat;
 }
 
@@ -327,7 +328,7 @@ footer {
   top: 94%;
   left: -40px;
   position: absolute;
-  background-image: url(../assets/images/browse-star2.png);
+  background-image: url(/assets/images/browse-star2.png);
   background-repeat: no-repeat;
 }
 
@@ -379,7 +380,7 @@ footer {
   right: -40px;
   top: 50%;
   position: absolute;
-  background-image: url(../assets/images/product-page-star1.png);
+  background-image: url(/assets/images/product-page-star1.png);
   background-repeat: no-repeat;
 }
 
@@ -389,7 +390,7 @@ footer {
   left: 10%;
   top: 115%;
   position: absolute;
-  background-image: url(../assets/images/product-page-star2.png);
+  background-image: url(/assets/images/product-page-star2.png);
   background-repeat: no-repeat;
   z-index: 2;
 }
@@ -485,7 +486,7 @@ footer {
 }
 
 .cart .star1 {
-  background-image: url(../assets/images/checkout-star1.png);
+  background-image: url(/assets/images/checkout-star1.png);
   width: 77px;
   height: 80px;
   position: absolute;
@@ -495,7 +496,7 @@ footer {
 }
 
 .checkout .star2 {
-  background-image: url(../assets/images/checkout-star2.png);
+  background-image: url(/assets/images/checkout-star2.png);
   width: 100px;
   height: 102px;
   position: absolute;
@@ -551,7 +552,7 @@ footer {
   width: 70px;
   height: 70px;
   position: absolute;
-  background-image: url(../assets/images/about-star1.png);
+  background-image: url(/assets/images/about-star1.png);
   background-repeat: no-repeat;
   top: -95px;
   left: 240px;
@@ -561,7 +562,7 @@ footer {
   width: 60px;
   height: 60px;
   position: absolute;
-  background-image: url(../assets/images/about-star2.png);
+  background-image: url(/assets/images/about-star2.png);
   background-repeat: no-repeat;
   top: 75px;
   right: -180px;
@@ -571,7 +572,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-image: url(../assets/images/about-star3.png);
+  background-image: url(/assets/images/about-star3.png);
   background-repeat: no-repeat;
   top: 90%;
   left: -40px;
@@ -579,7 +580,7 @@ footer {
 
 .decorativeTitle {
   position: absolute;
-  background-image: url(../assets/images/connecting-film-lovers.png);
+  background-image: url(/assets/images/connecting-film-lovers.png);
   background-repeat: no-repeat;
   background-size: 60%;
   width: 925px;
@@ -604,7 +605,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-image: url(../assets/images/contact-star1.png);
+  background-image: url(/assets/images/contact-star1.png);
   background-repeat: no-repeat;
   top: -30px;
   right: 0px;
@@ -614,7 +615,7 @@ footer {
   width: 40px;
   height: 40px;
   position: absolute;
-  background-image: url(../assets/images/contact-star2.png);
+  background-image: url(/assets/images/contact-star2.png);
   background-repeat: no-repeat;
   top: 40px;
   right: -25px;
@@ -862,7 +863,7 @@ footer {
   
   .decorativeTitle {
     position: absolute;
-    background-image: url(../assets/images/connecting-film-lovers2.png);
+    background-image: url(/assets/images/connecting-film-lovers2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 110%;
