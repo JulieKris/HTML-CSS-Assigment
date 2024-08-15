@@ -119,6 +119,10 @@ table {
 }
 
 /* header and footer*/
+header {
+  width: 100%;
+}
+
 .headerList {
   display: flex;
   justify-content: space-around;
