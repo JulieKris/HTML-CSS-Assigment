@@ -191,7 +191,7 @@ footer {
   top: -50px;
   z-index: 2;
   position: absolute;
-  background-image: url(../assets/images/index-star1.png);
+  background-image: url(/assets/images/index-star1.png);
   background-repeat: no-repeat;
 }
 
@@ -202,7 +202,7 @@ footer {
   top: 200px;
   z-index: 2;
   position: absolute;
-  background-image: url(../assets/images/index-star2.png);
+  background-image: url(/assets/images/index-star2.png);
   background-repeat: no-repeat;
 }
 
@@ -213,13 +213,13 @@ footer {
   top: 270px;
   z-index: 2;
   position: absolute;
-  background-image: url(../assets/images/index-star3.png);
+  background-image: url(/assets/images/index-star3.png);
   background-repeat: no-repeat;
 }
 
 .intro {
   position: relative;
-  background-image: url("../assets/images/connecting-film-lovers.png");
+  background-image: url("/assets/images/connecting-film-lovers.png");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
