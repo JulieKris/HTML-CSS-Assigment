@@ -368,7 +368,7 @@ footer {
 }
 
 .categories .filmPosters {
-  overflow: auto;
+  overflow-x: auto;
 }
 
 /*product page*/
