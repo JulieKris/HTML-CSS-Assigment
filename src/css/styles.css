@@ -189,7 +189,7 @@ footer {
   top: -50px;
   z-index: 2;
   position: absolute;
-  background-image: url('../../assets/images/index-star1.png');
+  background-image: url("../../assets/images/index-star1.png");
   background-repeat: no-repeat;
 }
 
