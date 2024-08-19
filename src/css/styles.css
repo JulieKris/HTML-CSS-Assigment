@@ -1,5 +1,5 @@
 /* Use import to split up your CSS into manageable chunks */
-@import url("_reset.css");
+@import url("../../src/css/_reset.css");
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./_variables.css");
@@ -738,13 +738,14 @@ footer {
   }
   
   .indexStar2 {
-    right: 0px;
+    background-size: 70%;
+    right: -20px;
     top: 0px;
     z-index: 0;
   }
   
   .indexStar3 {
-    right: 30px;
+    right: 120px;
     top: 280px;
   }
 
