@@ -173,6 +173,8 @@ footer {
 .mobileHeader {
   position: fixed;
   background-color: #191919;
+  top: 0;
+  left: 0;;
   padding-left: 5%;
   padding-right: 5%;
   display: none;
@@ -676,8 +678,6 @@ footer {
 
   .mobileHeader {
     display: block;
-    margin-top: 0;
-    margin-left: 0;
     padding-top: 20px;
     padding-bottom: 10px;
   }
