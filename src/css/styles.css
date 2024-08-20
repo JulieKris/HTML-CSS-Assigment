@@ -574,8 +574,8 @@ footer {
 }
 
 .aboutStar2 {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   background-image: url("../../assets/images/about-star2.png");
   background-repeat: no-repeat;
@@ -891,7 +891,7 @@ footer {
   
   .aboutStar2 {
     top: 35px;
-    right: -40px;
+    right: -20px;
   }
   
   .aboutStar3 {
