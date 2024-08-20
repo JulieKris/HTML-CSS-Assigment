@@ -690,7 +690,7 @@ footer {
 
   .mobileHeaderTop {
     display: grid;
-    grid-template-columns: 8fr 1fr 1fr;
+    grid-template-columns: 10fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
   }
