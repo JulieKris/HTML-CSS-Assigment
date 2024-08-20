@@ -44,7 +44,7 @@ h2 {
 
 p {
   margin: 0px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a {
@@ -94,6 +94,7 @@ select {
   color: #5F5F5E;
   background-color: #31333B;
   border: none;
+  font-size: 16px;
   width: 150px;
   height: 40px;
   padding: 10px;
@@ -153,6 +154,7 @@ header {
 }
 
 footer {
+  width: 100%;
   background-color: #415083;
   padding-top: 50px;
   padding-bottom:50px;
@@ -160,14 +162,16 @@ footer {
 }
 
 .footerList {
-  text-align: center;
-  margin: auto;
+  display: flex;
+  justify-content: space-around;  
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .footerList li {
   display: inline;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .footer a:visited {
@@ -714,12 +718,19 @@ footer {
     font-size: 18px;
   }*/
 
-  .footerListItem {
+  .footerList {
     display: block;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .footerList li {
+    display: block;
+    text-align: center;
   }
 
   footer {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
   }
 
