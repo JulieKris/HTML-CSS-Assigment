@@ -161,6 +161,7 @@ footer {
 
 .footerList {
   text-align: center;
+  margin: auto;
 }
 
 .footerList li {
@@ -506,12 +507,13 @@ footer {
 
 .checkout .star2 {
   background-image: url("../../assets/images/checkout-star2.png");
-  width: 100px;
-  height: 102px;
+  width: 90px;
+  height: 100px;
   position: absolute;
-  right: -50px;
+  right: -40px;
   top: -35px;
   z-index: 2;
+  overflow-x: hidden;
 }
 
 .cart {
@@ -717,8 +719,8 @@ footer {
   }
 
   footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   /*home page*/
@@ -794,7 +796,7 @@ footer {
   /*browse page*/
   .filters {
     display: flex;
-    width: 100%;
+    width: 80%;
     overflow: auto;
     right: 0%;
     left: 10%;
