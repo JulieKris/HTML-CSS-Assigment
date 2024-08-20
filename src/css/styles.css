@@ -440,6 +440,7 @@ footer {
 .productPageButtons button {
   width:  100%;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .buttonCart {
