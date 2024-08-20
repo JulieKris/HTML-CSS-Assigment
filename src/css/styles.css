@@ -420,7 +420,7 @@ footer {
   position: absolute;
   right: 62%;
   display: block;
-  width: 15%;
+  width: 180px;
   margin-top: 24%;
 }
 
@@ -439,6 +439,23 @@ footer {
 
 .productPageButtons button {
   width:  100%;
+  padding-left: 0;
+}
+
+.buttonCart {
+  background-image: url("../../assets/images/add-shopping-cart.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position-x: 80%;
+  background-position-y: center;
+}
+
+.buttonWishList {
+  background-image: url("../../assets/images/add-wishlist.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-x: 92%;
+  background-position-y: center; 
 }
 
 .productInfo {
@@ -839,7 +856,7 @@ footer {
   .productPageButtons {
     position: static;
     right: 0%;
-    width: 150px;
+    width: 180px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 50px;
