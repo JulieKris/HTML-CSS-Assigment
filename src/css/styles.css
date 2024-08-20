@@ -8,12 +8,16 @@
 
 /*affects all pages*/
 body {
+  box-sizing: border-box;
+  min-height: 100vh;
   color: #F1F0E1;
   background-image: linear-gradient(#2F2F2F, #415083 77%, #415083);
   grid-template-rows: auto 1fr;
   font-family: "Hind", sans-serif;
   font-weight: 100;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -132,16 +136,16 @@ header {
   padding-right: 0%;
 }
 
-.headerListItem {
+.headerList li {
   display: inline;
   color: #5F5F5E;
 }
 
-.headerListLink:visited {
+.headerList a:visited {
   color: #5F5F5E;
 }
 
-.headerListLink:hover {
+.headerList a:hover {
   color: #F1F0E1;
   transition-duration: 0.4s;
 }
@@ -163,13 +167,13 @@ footer {
   text-align: center;
 }
 
-.footerListItem {
+.footerList li {
   display: inline;
   padding-left: 3%;
   padding-right: 3%;
 }
 
-.footerLink:visited {
+.footer a:visited {
   color: #F1F0E1;
 }
 
@@ -421,7 +425,9 @@ footer {
 
 .productPageButtons p {
   background-color: #31333B;
+  font-size: 16px;
   font-weight: 600;
+  text-align: center;
   width: 60px;
   padding-left: 10px;
   padding-right: 10px;
@@ -687,8 +693,7 @@ footer {
     align-items: center;
   }
 
-  .mobileHeaderDropDown {
-    display: none;
+  /*.mobileHeaderDropDown {
     padding-bottom: 20px;
   }
 
@@ -701,12 +706,15 @@ footer {
     display: flex;
     justify-content: space-around;
     padding-left: 0px;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .mobileHeader a {
     font-weight: 800;
     font-size: 18px;
-  }
+  }*/
 
   .footerListItem {
     display: block;
@@ -725,26 +733,27 @@ footer {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    margin-top: 0px;
+    margin-top: -20px;
     margin-left: 20px;
   }
 
   .indexStar1 {
     left: 0px;
-    top: -50px;
+    top: -15%;
     z-index: 0;
   }
   
   .indexStar2 {
-    background-size: 70%;
+    background-size: 50%;
     right: -20px;
-    top: 0px;
+    top: -3%;
     z-index: 0;
   }
   
   .indexStar3 {
-    right: 120px;
-    top: 280px;
+    background-size: 90%;
+    right: 30%;
+    top: 80%;
   }
 
   .intro p {
