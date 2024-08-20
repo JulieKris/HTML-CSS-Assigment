@@ -325,8 +325,8 @@ footer {
 
 /*browse page*/
 .browseStar1 {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   top: -30px;
   left: 87%;
   position: absolute;
@@ -794,7 +794,7 @@ footer {
   /*browse page*/
   .filters {
     display: flex;
-    width: 80%;
+    width: 100%;
     overflow: auto;
     right: 0%;
     left: 10%;
