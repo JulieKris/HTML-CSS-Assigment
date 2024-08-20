@@ -471,6 +471,11 @@ footer {
   z-index: 1;
 }
 
+.productInfo p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .productInfo th {
   font-size: 13px;
   font-weight: 400;
