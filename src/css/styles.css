@@ -129,8 +129,8 @@ header {
   display: flex;
   justify-content: space-around;
   padding-top: 25px;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .headerList li {
@@ -248,13 +248,13 @@ footer {
 }
 
 .intro button {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .top {
   text-align: center;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .top .filmPosters {
@@ -310,7 +310,7 @@ footer {
 
 .newsLink {
   background-color: #31333B;
-  width: 50%;
+  width: 400px;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -597,8 +597,8 @@ footer {
   position: absolute;
   background-image: url("../../assets/images/connecting-film-lovers.png");
   background-repeat: no-repeat;
-  background-size: 60%;
-  width: 925px;
+  background-size: 100%;
+  width: 550px;
   height: 100%;
   left: 100px;
   top: -60px;
@@ -771,10 +771,6 @@ footer {
     width: 100%;
   }
 
-  .top {
-    padding-bottom: 50px;
-  }
-
   .filmTitle {
     opacity: 1;
   }
@@ -788,6 +784,7 @@ footer {
     width: 100%;
     height: 100%;
     overflow: visible;
+    max-width: 500px;
   }
 
   .top .posterImage {
@@ -796,8 +793,10 @@ footer {
   }
 
   .news {
-  padding-left: 0%;
-  padding-bottom: 50px;
+    margin: auto;
+    padding-left: 0%;
+    padding-bottom: 50px;
+    max-width: 500px;
   }
 
   .newsLink {
@@ -876,6 +875,7 @@ footer {
 
   .checkout .star2{
     top: 330px;
+    overflow: hidden;
   }
 
   .checkoutButton {
@@ -913,8 +913,8 @@ footer {
   .aboutParagraph {
     margin-left: 0px;
     margin: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 70px;
+    margin-bottom: 200px;
   }
 
   /*contact page*/
